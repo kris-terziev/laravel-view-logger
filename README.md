@@ -1,4 +1,6 @@
-# Products Admin
+# Laravel View Logger
+
+Laravel View Logger is a small package that logs the hits on your web site.
 
 ## Install
 
@@ -25,3 +27,18 @@ Add this to the $middleware array in the Karnel.php file.
 ```php
     \Kris\LaravelViewCounter\Http\ViewLogger::class,
 ```
+To retrieve the data in your controller simply import the Log class.
+
+```php
+    use Kris\LaravelViewCounter\Log;
+```
+
+## Examples
+
+Retrieving the number of unique hits on the website.
+
+```php
+    $hits = Log::unique();
+```
+
+
