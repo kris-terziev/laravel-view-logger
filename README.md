@@ -1,6 +1,6 @@
 # Laravel View Logger
 
-Laravel View Logger is a small package that logs the hits on your web site.
+Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site.
 
 ## Install
 
