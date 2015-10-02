@@ -1,17 +1,12 @@
 {
     "name": "kris-terziev/laravel-view-logger",
-    "description": ":package_description",
-    "keywords": [
-        "league",
-        ":package_name"
-    ],
+    "description": "Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site."
     "homepage": "https://github.com/thephpkris-terziev/laravel-view-counter",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Kristiyan Terziev",
+            "email": "kris.terziev@gmail.com",
             "role": "Developer"
         }
     ],
