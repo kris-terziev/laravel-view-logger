@@ -1,6 +1,6 @@
 {
     "name": "kris-terziev/laravel-view-logger",
-    "description": "Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site."
+    "description": "Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site.",
     "homepage": "https://github.com/thephpkris-terziev/laravel-view-counter",
     "license": "MIT",
     "authors": [
