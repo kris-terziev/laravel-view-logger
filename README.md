@@ -2,9 +2,13 @@
 
 Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site.
 
-## Install
+## Install via Composer
 
-Add this to your composer.json file and the run composer update.
+```bash
+    composer require kris-terziev/laravel-view-logger
+```
+
+or add this to your composer.json file and the run composer update.
 ``` bash
     "kris-terziev/productsadmin": "0.1.*"
 ```
