@@ -11,7 +11,7 @@ Laravel View Logger is a small package for Laravel 5+ that logs the hits on your
 Now add the service provider to the providers array.
 
 ```php
-    Kris\LaravelViewCounter\LaravelViewCounterServiceProvider::class,
+    Kris\LaravelViewLogger\LaravelViewLoggerServiceProvider::class,
 ```
 
 And add the Facade to the aliases array.
