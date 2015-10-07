@@ -31,7 +31,7 @@ Run vendor:publish to publish the migration and the config file. Then run the mi
 Add this to the $middleware array in the Karnel.php file.
 
 ```php
-    \Kris\LaravelViewCounter\Http\ViewLogger::class,
+    \Kris\LaravelViewLogger\Http\Middleware\ViewLogger::class,
 ```
 
 ```php
