@@ -1,0 +1,39 @@
+{
+    "name": "kris-terziev/laravel-view-logger",
+    "description": "Laravel View Logger is a small package for Laravel 5+ that logs the hits on your web site.",
+    "homepage": "https://github.com/thephpkris-terziev/laravel-view-counter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristiyan Terziev",
+            "email": "kris.terziev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kris\\LaravelViewLogger\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kris\\LaravelViewLogger\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
