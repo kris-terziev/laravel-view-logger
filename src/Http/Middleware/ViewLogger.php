@@ -2,7 +2,7 @@
 
 namespace Kris\LaravelViewLogger\Middleware\Http;
 
-use App\Log;
+use Kris\LaravelViewLogger\Log;
 use Closure;
 
 class ViewLogger
