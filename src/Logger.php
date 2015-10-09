@@ -51,14 +51,14 @@ class Logger
      * @param int $months
      * @return array
      */
-    public static function perMonth($months = 1) {
+    public static function perMonth($months = 1, $date_format = "Y-m") {
         
         $hits_per_month = array();
 
         for ($i = 1; $i <= $months; $i++) {
             $hits_count = self::interval(Carbon::now()->subMonths($i)->firstOfMonth(), Carbon::now()->subMonths($i)->lastOfMonth());
 
-            $hits_per_month[Carbon::now()->subMonths($i)->format('F Y')] = $hits_count;
+            $hits_per_month[Carbon::now()->subMonths($i)->format($date_format)] = $hits_count;
         }
 
         return $hits_per_month;
