@@ -1,6 +1,6 @@
 <?php
 
-namespace Kris\LaravelViewLogger\Middleware\Http;
+namespace Kris\LaravelViewLogger\Http\Middleware;
 
 use Kris\LaravelViewLogger\Log;
 use Closure;
