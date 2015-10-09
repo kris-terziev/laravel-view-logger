@@ -35,11 +35,21 @@ Add this to the $middleware array in the Karnel.php file.
 ```
 
 ```php
-    Logger::unique();                          //Returns the count of the unique hits on the website.
-    Logger::interval($startDate, $endDate);    //Returns the count of the unique hits for the given interval. You can use Carbon.
-    Logger::perMonth();                        //Returns the count of the unique hits fot the last month. Same as Logger::lastMonth()
-    Logger::perMonth(3);                       //Returns an array with the hits for the last 3 months.
-                                               //Example: ['Jan 2014' => '23', 'Feb 2014' => '43']
+    Logger::unique();                          
+    //Returns the count of the unique hits on the website.
+    
+    Logger::interval($startDate, $endDate);    
+    //Returns the count of the unique hits for the given interval. You can use Carbon.
+    
+    Logger::perMonth();                        
+    //Returns the count of the unique hits fot the last month. Same as Logger::lastMonth()
+    
+    Logger::perMonth(3);                       
+    //Returns an array with the hits for the last 3 months.
+    //Example: ['Jan 2014' => '23', 'Feb 2014' => '43']
+    //If you want to change the date format you can pass it as a second parameter
+    //Example: Logger::perMonth(2, "Y M");
+    //This will return something like this ['2015 Jan' => '20', '2015 Feb' => '31'] 
 ```
 
 
