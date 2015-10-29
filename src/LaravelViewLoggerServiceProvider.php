@@ -6,6 +6,10 @@ use Illuminate\Support\ServiceProvider;
 
 class LaravelViewLoggerServiceProvider extends ServiceProvider
 {
+    protected $commands = [
+        'Kris\LaravelViewLogger\Console\Commands\LoggerReport'
+    ];
+
     /**
      * Perform post-registration booting of services.
      *
@@ -29,5 +33,7 @@ class LaravelViewLoggerServiceProvider extends ServiceProvider
         $this->app->singleton('logger', function ($app) {
             return $this->app->make('Kris/LaravelViewLogger');
         });
+
+        $this->commands($this->commands);
     }
 }

@@ -55,4 +55,12 @@ Add this to the $middleware array in the Karnel.php file.
      //Functions the same way as perMonth() but with days.
 ```
 
+## Artisan Commands
+
+```sh
+    php artisan logger:report
+```
+
+Outputs to the console a report on the hits for the last 12 months and the total unique hits.
+
 
