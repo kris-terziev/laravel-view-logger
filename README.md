@@ -14,12 +14,6 @@ Now add the service provider to the providers array.
     Kris\LaravelViewLogger\LaravelViewLoggerServiceProvider::class,
 ```
 
-And add the Facade to the aliases array.
-
-```php
-    'Logger'    => Kris\LaravelViewLogger\Facades\ViewLogger::class,
-```
-
 ## Usage
 
 Run vendor:publish to publish the migration and the config file. Then run the migrations.
