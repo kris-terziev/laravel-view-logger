@@ -52,6 +52,14 @@ class LoggerReport extends Command
         $this->info('Unique hits: ' . $unique_hits);
     }
 
+    /**
+     * Retrieves the hits per month for given months back
+     * and saves them in array of arrays to be used in
+     * console table.
+     *
+     * @param $months
+     * @return array
+     */
     private function getPerMonth($months)
     {
         $per_month = [];
