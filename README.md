@@ -56,5 +56,24 @@ Add this to the $middleware array in the Karnel.php file.
 ```
 
 Outputs to the console a report on the hits for the last 12 months and the total unique hits.
+Example output:
+
+```
++---------+------+
+| Date    | Hits |
++---------+------+
+| 2015-09 | 76   |
+| 2015-08 | 62   |
+| 2015-07 | 104  |
+| 2015-06 | 90   |
+| 2015-05 | 82   |
+| 2015-04 | 67   |
+| 2015-03 | 81   |
+| 2015-01 | 89   |
+| 2014-12 | 80   |
+| 2014-11 | 73   |
+| 2014-10 | 37   |
++---------+------+
+```
 
 
